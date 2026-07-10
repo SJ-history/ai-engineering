@@ -61,7 +61,8 @@ ai-engineering/
 ├── templates/                        # 즉시 복사해 쓰는 산출물 (HOW)
 │   ├── AGENTS.md                     # ★ 규칙 정본 — 새 레포 루트에 이것 하나만 복사
 │   ├── task-loop-checklist.md        # 작업 루프 운영 체크리스트
-│   └── verification-matrix.md        # 검증 신호(그라운드 트루스) 설계표
+│   ├── verification-matrix.md        # 검증 신호(그라운드 트루스) 설계표
+│   └── progress-template.md          # 상태 파일 — 세션 간 이어지는 진행 기록
 └── CHANGELOG.md                      # 표준 버전 이력
 ```
 
