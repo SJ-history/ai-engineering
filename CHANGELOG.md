@@ -2,6 +2,18 @@
 
 이 AI 엔지니어링 표준의 버전 이력. 형식은 [Keep a Changelog](https://keepachangelog.com/)를 따른다.
 
+## [0.4.0]
+### Added
+- **협업 경계(Collaboration Boundary) 원칙(P7)** 신설: 이 표준은 개인용이며, 팀에
+  이미 규칙 파일(`CONTRIBUTING.md`, `CODEOWNERS` 등)이 있으면 그것이 정본이고
+  `AGENTS.md`는 그 위의 개인 보충 레이어로만 얹는다는 원칙 명시.
+- `templates/AGENTS.md`에 "0. 팀 표준과의 관계(정본 우선순위)" 절 추가 — 혼자 결정
+  가능한 것과 팀 합의가 필요한 것의 경계, 충돌 시 처리 방법을 명문화.
+- 에이전트 작업 규약에 "검증 결과를 PR·커밋 등 팀원도 보는 곳에 근거로 남긴다" 항목 추가
+  — 개인 루프 실천을 협업 신뢰로 전환하는 지점.
+- `docs/02-harness-engineering.md`(기둥1 컨텍스트, 기둥5 인터페이스), `docs/04-onboarding-playbook.md`
+  (Phase 2)에 팀 규칙 우선 확인·병합 절차 반영.
+
 ## [0.3.0]
 ### Changed
 - **단일 규칙 파일(One Rules File) 원칙 확립**: 도구별 어댑터/규칙 파일 체계를 폐기.

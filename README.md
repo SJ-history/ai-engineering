@@ -88,6 +88,8 @@ IDE가 IntelliJ든 VS Code든 Cursor든, 에이전트가 Claude든 Copilot이든
 3. **작은 루프(Small loops)** — 변경 단위를 작게, 피드백 주기를 짧게.
 4. **살아있는 문서(Living docs)** — 겪은 실패를 규칙으로 환원해 하네스를 강화한다.
 5. **이식성(Portability)** — 조직·IDE·에이전트가 바뀌어도 이 저장소는 그대로 재사용된다.
+6. **협업 경계(Collaboration Boundary)** — 이 표준은 개인용이다. 팀에 이미 규칙이 있으면
+   그것이 정본이고, 이 표준은 그 위의 보충 레이어로만 얹는다.
 
 ---
 *이 표준은 살아있는 문서다. 개선 이력은 `CHANGELOG.md`를 참조.*
