@@ -93,4 +93,3 @@ IDE가 IntelliJ든 VS Code든 Cursor든, 에이전트가 Claude든 Copilot이든
    그것이 정본이고, 이 표준은 그 위의 보충 레이어로만 얹는다.
 
 ---
-*이 표준은 살아있는 문서다. 개선 이력은 `CHANGELOG.md`를 참조.*
